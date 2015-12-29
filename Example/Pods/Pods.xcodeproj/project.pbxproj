@@ -30,7 +30,7 @@
 		3AEAC447B09E7AABC140654C8529BC94 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EEEBE209F0CF242FBC231937E6922 /* MatcherFunc.swift */; };
 		4CE6112AAD8DE41BF756850D210E3EB4 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2005F86F2C2D05CDE00BB78EF02D6D4 /* ExampleGroup.swift */; };
 		4E87C6AE24AB15700A39FC24A2F1C93B /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E12C6F645E5DC0EDB23023A394F1CB1 /* BeLessThanOrEqual.swift */; };
-		4FC1D3E2137854EB3D4098F9E453B030 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB09B8CDE117881AEF6C192B42B15D /* ReplaceMe.swift */; };
+		4FC1D3E2137854EB3D4098F9E453B030 /* Fadeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB09B8CDE117881AEF6C192B42B15D /* Fadeable.swift */; };
 		50738E45333D89FE9207F51D0C5AF5AB /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E3634125A20B9BA58962919B08DDC /* Closures.swift */; };
 		508DB22CD1AB2C15D78004E687C068D9 /* Fadeable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B57AEDECF3EF583BA7DB13FF5A422C /* Fadeable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		512DFAE728521F02AF225F0082195DCC /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = 784135A9193F0FE38182AF2C577B3A52 /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -212,7 +212,7 @@
 		B8BA0E485C13C65288724373CB49FDBD /* Pods-Fadeable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fadeable_Example-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BAA70BFBA240E7328149C1DC682F7FDC /* Pods-Fadeable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fadeable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BABB09B8CDE117881AEF6C192B42B15D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		BABB09B8CDE117881AEF6C192B42B15D /* Fadeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Fadeable.swift; sourceTree = "<group>"; };
 		BE7E0260ED256E2206A7FB0F34A4398B /* Pods-Fadeable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fadeable_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BEA1EFFE836005E11B9D420692E9E50C /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Quick/Example.swift; sourceTree = "<group>"; };
 		BF4AE1E80CC4EA4F2E1FF17CA10A3D26 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
@@ -489,7 +489,7 @@
 		CFF02A5CFF93C7F706D3A95B9F0FF5D9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BABB09B8CDE117881AEF6C192B42B15D /* ReplaceMe.swift */,
+				BABB09B8CDE117881AEF6C192B42B15D /* Fadeable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -860,7 +860,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7127A374B29BA84AFA0BFBB11B20F535 /* Fadeable-dummy.m in Sources */,
-				4FC1D3E2137854EB3D4098F9E453B030 /* ReplaceMe.swift in Sources */,
+				4FC1D3E2137854EB3D4098F9E453B030 /* Fadeable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
