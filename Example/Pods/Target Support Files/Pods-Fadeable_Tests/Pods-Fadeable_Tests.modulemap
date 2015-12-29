@@ -1,0 +1,6 @@
+framework module Pods_Fadeable_Tests {
+  umbrella header "Pods-Fadeable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

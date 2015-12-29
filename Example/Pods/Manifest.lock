@@ -1,0 +1,20 @@
+PODS:
+  - Fadeable (0.1.0)
+  - Nimble (3.0.0)
+  - Quick (0.8.0)
+
+DEPENDENCIES:
+  - Fadeable (from `../`)
+  - Nimble (= 3.0.0)
+  - Quick (~> 0.8.0)
+
+EXTERNAL SOURCES:
+  Fadeable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Fadeable: b61e0314ae4284dda0f4b5bd61e6c2981a58258b
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
+  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module Fadeable {
+  umbrella header "Fadeable-umbrella.h"
+
+  export *
+  module * { export * }
+}
