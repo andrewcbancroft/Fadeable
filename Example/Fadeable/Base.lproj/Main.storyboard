@@ -16,8 +16,34 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UHe-uU-gLY">
+                                <rect key="frame" x="180" y="91" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="KPE-BC-RyM"/>
+                                    <constraint firstAttribute="width" constant="240" id="cP4-PE-tJS"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZC-zZ-mkA">
+                                <rect key="frame" x="258" y="278" width="84" height="30"/>
+                                <state key="normal" title="Toggle Fade"/>
+                                <connections>
+                                    <action selector="fadeToggleTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sUS-oC-oZ8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UHe-uU-gLY" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="71" id="332-bq-9oD"/>
+                            <constraint firstItem="IZC-zZ-mkA" firstAttribute="top" secondItem="UHe-uU-gLY" secondAttribute="bottom" constant="59" id="7xG-hW-JqG"/>
+                            <constraint firstItem="UHe-uU-gLY" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="JQY-FT-7Q4"/>
+                            <constraint firstItem="IZC-zZ-mkA" firstAttribute="centerX" secondItem="UHe-uU-gLY" secondAttribute="centerX" id="wI8-a5-Hwz"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="box" destination="UHe-uU-gLY" id="nCx-wN-hb1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
